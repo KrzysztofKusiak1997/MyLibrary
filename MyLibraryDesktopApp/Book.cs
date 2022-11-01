@@ -10,13 +10,13 @@ namespace MyLibraryDesktopApp
     {
         private string _title { get; set; }
         private string _description { get; set; }
-        private Author _author { get; set; }
+        private string _author { get; set; }
         private string _genre { get; set; }
         private string _type { get; set; }
         public Person _owner { get; set; }
         public Person _holder { get; set; }
 
-        public Book(string title, string description, Author author, string genre, string type, Person owner, Person holder)
+        public Book(string title, string description, string author, string genre, string type, Person owner, Person holder)
         {
             _title = title;
             _description = description; 
